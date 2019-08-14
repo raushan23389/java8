@@ -1,3 +1,31 @@
 git init: to initialise git repository in local.
 git status:The git status command lists all the modified files which are ready to be added to the local repository.
+git add -a: add all untracked file to staged area.
+git add <filename>: specific file will be added in staged area.
+git commit -m “<message>”; to commit wiith a message.
 
+one way:-
+if you have already a reppository in your local and you want to link it with a remote repository.
+git remote add origin <link of your central repository>
+
+git pull origin master
+This command will copy all the files from the master branch of remote repository to your local repository.
+
+
+git pull origin <branch name>
+to gett the uupdates from any other branch
+
+
+git push origin master
+to push the changes in theh branch
+
+
+Branching:-
+------------
+git branch
+
+The one mantra that you should always be chanting while branching is “branch early, and branch often”
+
+To create a new branch we use the following command:
+
+git branch <branch-name>
