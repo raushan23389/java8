@@ -31,8 +31,8 @@ To create a new branch we use the following command:
 
 git branch <branch-name>
 
-I am adding this line just for trial in the java8demo branch
+-----------------
 
+git cherry-pick <commit-hash>:Cherry picking in Git means to choose a commit from one branch and apply it onto another.
 
-I am doing some changes and in progress.
 
