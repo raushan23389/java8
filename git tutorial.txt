@@ -1,0 +1,3 @@
+git init: to initialise git repository in local.
+git status:The git status command lists all the modified files which are ready to be added to the local repository.
+
