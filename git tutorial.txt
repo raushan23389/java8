@@ -35,4 +35,12 @@ git branch <branch-name>
 
 git cherry-pick <commit-hash>:Cherry picking in Git means to choose a commit from one branch and apply it onto another.
 
+----------------------------
+
+git stash : git stash is used to save uncommitted file for temporary.
+
+---------------------------
+
+git stash pop : again move to uncommitted file which is saved temporary in stack
+
 
